@@ -9,10 +9,14 @@ body {
     flex-direction: column;
 }
 
+/*header & footer */
+
 .header,
-.hero {
+.hero,
+.footer {
     background: #1F2937;
 }
+
 
 .header {
     padding: 5px 15%;
@@ -20,6 +24,19 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 25px 15%;
+}
+
+.footertext {
+    align-self: center;
+}
+
+/*hero*/
 
 .hero {
     padding: 100px 15%;
@@ -35,7 +52,8 @@ body {
 }
 
 .headergrey,
-.herogrey {
+.herogrey,
+.footertext {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -45,10 +63,12 @@ body {
 }
 
 .headergrey {
-    font-size: 18px;
-    margin-left: auto;
     display: flex;
     gap: 15px;
+}
+
+.marginleft{
+    margin-left: auto;
 }
 
 .herowhite {
@@ -97,6 +117,8 @@ body {
 
 .signup2 {
     background: transparent;
+    border: solid #f9faf8;
+    margin-left: auto;
 }
 
 
@@ -174,3 +196,28 @@ body {
 }
 
 /*bodylower*/
+
+.bodylower {
+    display: flex;
+    height: 429px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluecont {
+    background: #3882f6;
+    height: 40%;
+    width: 60%;
+    padding: 0px 5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+
